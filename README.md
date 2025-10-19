@@ -1,1 +1,1 @@
-# SCS---secure-communications-systems
+# SCS - secure communications systems
