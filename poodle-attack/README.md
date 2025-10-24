@@ -1,4 +1,5 @@
 ### Forcing SSL 3.0 Connection on a misconfigured OpenSSL server
+docker exec -it poodle_attack bash
 openssl s_client -connect 127.0.0.1:4433 -ssl3
 
 ### Example of a successful SSL 3.0 connection establishment and message sending
@@ -6,3 +7,6 @@ openssl s_client -connect 127.0.0.1:4433 -ssl3
 
 ### List of SSL 3.0 supported ciphers on the server (some of them are definitely unsafe)
 ![supported ciphers](demo-images/ssl3_supported_ciphers.JPG)
+
+### Demonstration of the POODLE attack
+![attack](demo-images/poodle_demonstration.JPG)
