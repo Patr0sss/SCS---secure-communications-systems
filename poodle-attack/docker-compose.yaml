@@ -1,0 +1,9 @@
+services:
+  sslv3-demo:
+    build: .
+    container_name: sslv3-demo
+    ports:
+      - "127.0.0.1:4433:4433"
+    volumes:
+      - ./certs:/certs
+    tty: true
